@@ -13,4 +13,5 @@ jobs:
       - name: Run a multi-line script
         run: |
           npm install
+          npm install expect@1.20.2 --save-dev
           npm run test
