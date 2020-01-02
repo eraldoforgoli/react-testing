@@ -24,9 +24,11 @@
     "test:component": "npm run mocha -- './examples/Button/Button.test.js'",
     "test:function": "npm run mocha -- './examples/add/add.test.js'",
     "test:redux": "npm run mocha -- './examples/NavBar/*.test.js'",
-    "test:react": "npm run mocha -- './examples/{NavBar,Button}/*.test.js'"
+    "test:react": "npm run mocha -- './examples/{NavBar,Button}/*.test.js'",
+    "sonar": "node sonar-project.js"
   },
   "devDependencies": {
-    "expect": "^1.20.2"
+    "expect": "^1.20.2",
+    "sonarqube-scanner": "^2.5.0"
   }
 }

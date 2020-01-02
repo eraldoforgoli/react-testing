@@ -12,4 +12,4 @@ jobs:
         run: SonarQube Code Analysis!
       - name: Run a multi-line script
         run: |
-          ../scripts/sonarqube.sh
+          npm run sonar
