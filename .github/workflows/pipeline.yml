@@ -12,4 +12,6 @@ jobs:
         run: echo Hello, world!
       - name: Run a multi-line script
         run: |
+          npm install sonarqube-scanner --save-dev
+          npm install
           npm run sonar
